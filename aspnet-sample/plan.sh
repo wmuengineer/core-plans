@@ -1,8 +1,8 @@
 pkg_name=aspnet-sample
 pkg_origin=core
-pkg_version=0.2.1
+pkg_version=0.2.2
 pkg_source=https://github.com/mwrock/habitat-${pkg_name}/archive/v${pkg_version}.tar.gz
-pkg_shasum=eb49a0858802d80ec7ced1ea553e87666a255ed0d324c2bd7d2fe8347912d04e
+pkg_shasum=a3ae3bc76d61bd58b0f93cdc19e4bd6307257a7d26d7995a367948f0ef65379f
 pkg_upstream_url=https://github.com/mwrock/habitat-aspnet-sample
 pkg_maintainer="The Habitat Maintainers <humans@habitat.sh>"
 pkg_license=('MIT')
@@ -38,6 +38,14 @@ do_build() {
 }
 
 do_install() {
+  # we need the source project files to run db migrations
+  mkdir "$pkg_prefix/src"
+  cp -r $HAB_CACHE_SRC_PATH/$pkg_dirname/* "$pkg_prefix/src"
+  rm "$pkg_prefix/src/project.lock.json"
+  rm -rf "$pkg_prefix/src/bin"
+  rm -rf "$pkg_prefix/src/obj"
+  rm -rf "$pkg_prefix/src/node_modules"
+
   dotnet publish --output "$pkg_prefix/www"
   find "$pkg_prefix/www" -type f -name '*.so*' \
     -exec patchelf --set-rpath "$LD_RUN_PATH" {} \;

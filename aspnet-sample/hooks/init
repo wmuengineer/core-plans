@@ -2,3 +2,10 @@
 #
 ln -sf "{{pkg.path}}/www" "{{pkg.svc_var_path}}"
 chown -R {{pkg.svc_user}}:{{pkg.svc_group}} "{{pkg.svc_var_path}}"
+cp -rf "{{pkg.path}}/src" "{{pkg.svc_var_path}}"
+
+cd "{{pkg.svc_var_path}}/src" || exit
+export HOME="{{pkg.svc_var_path}}"
+cp -f "{{pkg.svc_config_path}}/appsettings.json" .
+dotnet restore 2>&1
+dotnet ef database update 2>&1
