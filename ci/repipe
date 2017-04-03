@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Rebuilding habitat-core-plans pipeline. This takes a while (>5 minutes). Just wait!"
+echo "Rebuilding habitat-core-plans pipeline. This takes a while (>10 minutes). Just wait!"
 
 PIPELINE=$(cd $(dirname ${BASH_SOURCE[0]}) ; pwd)
 hab_origin=core
@@ -15,7 +15,7 @@ pushd $PIPELINE >/dev/null
 
       for dep in "${pkg_deps[@]}"; do
         version=""
-        version_key=""
+        version_entry=""
         dep_origin=$(dirname ${dep})
         dep_name=$(basename ${dep})
 

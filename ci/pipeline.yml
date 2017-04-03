@@ -9973,35 +9973,30 @@ resources:
     auth_token: REDACTED
     name: gcc-libs
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-glibc
   source:
     auth_token: REDACTED
     name: glibc
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-gnupg
   source:
     auth_token: REDACTED
     name: gnupg
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-attr
   source:
     auth_token: REDACTED
     name: attr
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-coreutils
   source:
     auth_token: REDACTED
     name: coreutils
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-jdk8
   source:
@@ -10026,28 +10021,24 @@ resources:
     auth_token: REDACTED
     name: sed
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-apr
   source:
     auth_token: REDACTED
     name: apr
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-bash
   source:
     auth_token: REDACTED
     name: bash
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-jre8
   source:
     auth_token: REDACTED
     name: jre8
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-dotnet-core
   source:
@@ -10066,7 +10057,6 @@ resources:
     auth_token: REDACTED
     name: perl
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-guile
   source:
@@ -10079,14 +10069,12 @@ resources:
     auth_token: REDACTED
     name: libxml2
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-zlib
   source:
     auth_token: REDACTED
     name: zlib
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-groff
   source:
@@ -10105,14 +10093,12 @@ resources:
     auth_token: REDACTED
     name: ncurses
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-readline
   source:
     auth_token: REDACTED
     name: readline
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-libatomic_ops
   source:
@@ -10125,35 +10111,30 @@ resources:
     auth_token: REDACTED
     name: ruby
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-musl
   source:
     auth_token: REDACTED
     name: musl
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-busybox-static
   source:
     auth_token: REDACTED
     name: busybox-static
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-cacerts
   source:
     auth_token: REDACTED
     name: cacerts
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-gcc
   source:
     auth_token: REDACTED
     name: gcc
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-gawk
   source:
@@ -10166,7 +10147,6 @@ resources:
     auth_token: REDACTED
     name: git
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-php
   source:
@@ -10179,7 +10159,6 @@ resources:
     auth_token: REDACTED
     name: acl
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-gmp
   source:
@@ -10198,21 +10177,18 @@ resources:
     auth_token: REDACTED
     name: local-lib
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-python2
   source:
     auth_token: REDACTED
     name: python2
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-openssl
   source:
     auth_token: REDACTED
     name: openssl
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-expect
   source:
@@ -10225,14 +10201,12 @@ resources:
     auth_token: REDACTED
     name: libarchive
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-curl
   source:
     auth_token: REDACTED
     name: curl
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-icu52
   source:
@@ -10245,28 +10219,24 @@ resources:
     auth_token: REDACTED
     name: krb5
     origin: core
-    version: 52.1
   type: hab-pkg
 - name: core-libunwind
   source:
     auth_token: REDACTED
     name: libunwind
     origin: core
-    version: 52.1
   type: hab-pkg
 - name: core-lttng-ust
   source:
     auth_token: REDACTED
     name: lttng-ust
     origin: core
-    version: 52.1
   type: hab-pkg
 - name: core-util-linux
   source:
     auth_token: REDACTED
     name: util-linux
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-libiconv
   source:
@@ -10279,7 +10249,6 @@ resources:
     auth_token: REDACTED
     name: bzip2
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-tar
   source:
@@ -10304,7 +10273,6 @@ resources:
     auth_token: REDACTED
     name: erlang
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-tcl
   source:
@@ -10365,14 +10333,12 @@ resources:
     auth_token: REDACTED
     name: libffi
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-pcre
   source:
     auth_token: REDACTED
     name: pcre
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-linux-headers
   source:
@@ -10403,7 +10369,6 @@ resources:
     auth_token: REDACTED
     name: bash-static
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-libtool
   source:
@@ -10428,7 +10393,6 @@ resources:
     auth_token: REDACTED
     name: apr-util
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-jdk7
   source:
@@ -10447,7 +10411,6 @@ resources:
     auth_token: REDACTED
     name: node
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-jbigkit
   source:
@@ -10514,14 +10477,12 @@ resources:
     auth_token: REDACTED
     name: glib
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-libevent
   source:
     auth_token: REDACTED
     name: libevent
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-elfutils
   source:
@@ -10540,7 +10501,6 @@ resources:
     auth_token: REDACTED
     name: jemalloc
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-libcxx
   source:
@@ -10571,14 +10531,12 @@ resources:
     auth_token: REDACTED
     name: nspr
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-sqlite
   source:
     auth_token: REDACTED
     name: sqlite
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-lcms2
   source:
@@ -10597,21 +10555,18 @@ resources:
     auth_token: REDACTED
     name: db
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-libxslt
   source:
     auth_token: REDACTED
     name: libxslt
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-lzo
   source:
     auth_token: REDACTED
     name: lzo
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-iproute2
   source:
@@ -10642,14 +10597,12 @@ resources:
     auth_token: REDACTED
     name: vim
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-gdbm
   source:
     auth_token: REDACTED
     name: gdbm
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-fontconfig
   source:
@@ -10680,147 +10633,126 @@ resources:
     auth_token: REDACTED
     name: libaio
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-libcap-ng
   source:
     auth_token: REDACTED
     name: libcap-ng
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-pixman
   source:
     auth_token: REDACTED
     name: pixman
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-snappy
   source:
     auth_token: REDACTED
     name: snappy
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-vde2
   source:
     auth_token: REDACTED
     name: vde2
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-file
   source:
     auth_token: REDACTED
     name: file
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-nss
   source:
     auth_token: REDACTED
     name: nss
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-popt
   source:
     auth_token: REDACTED
     name: popt
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-libyaml
   source:
     auth_token: REDACTED
     name: libyaml
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-bundler
   source:
     auth_token: REDACTED
     name: bundler
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-postgresql
   source:
     auth_token: REDACTED
     name: postgresql
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-go
   source:
     auth_token: REDACTED
     name: go
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-make
   source:
     auth_token: REDACTED
     name: make
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-go17
   source:
     auth_token: REDACTED
     name: go17
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-cpanminus
   source:
     auth_token: REDACTED
     name: cpanminus
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-serf
   source:
     auth_token: REDACTED
     name: serf
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-libpcap
   source:
     auth_token: REDACTED
     name: libpcap
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-libscrypt
   source:
     auth_token: REDACTED
     name: libscrypt
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-libseccomp
   source:
     auth_token: REDACTED
     name: libseccomp
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-libidn
   source:
     auth_token: REDACTED
     name: libidn
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-libsodium
   source:
     auth_token: REDACTED
     name: libsodium
     origin: core
-    version: 2.5.0
   type: hab-pkg
 - name: core-7zip
   source:
