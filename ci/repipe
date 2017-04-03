@@ -14,8 +14,8 @@ pushd $PIPELINE >/dev/null
       source ${package}/plan.sh
 
       for dep in "${pkg_deps[@]}"; do
-        unset version
-        unset version_key
+        version=""
+        version_key=""
         dep_origin=$(dirname ${dep})
         dep_name=$(basename ${dep})
 
@@ -89,7 +89,7 @@ resources:
 - name: ${package_name}-plan
   type: git
   source:
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
     paths: [${package_name}/*]
 EOF
     fi
@@ -99,7 +99,7 @@ EOF
   spruce merge base.yml deps/*.yml packages/*.yml > .deploy.yml  && \
     REDACT=yes spruce merge --prune meta base.yml deps/*.yml packages/*.yml > pipeline.yml && \
     fly --target sw set-pipeline --pipeline habitat-core-plans --config .deploy.yml     &&
-    fly --target sw unpause-pipeline --pipeline habitat-core-plans
+    # fly --target sw unpause-pipeline --pipeline habitat-core-plans
 
   rm -rf packages deps
 popd >/dev/null

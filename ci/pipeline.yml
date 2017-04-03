@@ -10832,7 +10832,7 @@ resources:
   source:
     paths:
     - 7zip/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-acbuild
   source:
@@ -10844,13 +10844,13 @@ resources:
   source:
     paths:
     - acbuild/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: acl-plan
   source:
     paths:
     - acl/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-ant
   source:
@@ -10862,19 +10862,19 @@ resources:
   source:
     paths:
     - ant/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: apr-util-plan
   source:
     paths:
     - apr-util/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: apr-plan
   source:
     paths:
     - apr/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-artifactory-pro
   source:
@@ -10886,7 +10886,7 @@ resources:
   source:
     paths:
     - artifactory-pro/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-aspnet-sample
   source:
@@ -10898,13 +10898,13 @@ resources:
   source:
     paths:
     - aspnet-sample/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: attr-plan
   source:
     paths:
     - attr/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-autoconf
   source:
@@ -10916,7 +10916,7 @@ resources:
   source:
     paths:
     - autoconf/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-autogen
   source:
@@ -10928,7 +10928,7 @@ resources:
   source:
     paths:
     - autogen/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-automake
   source:
@@ -10940,7 +10940,7 @@ resources:
   source:
     paths:
     - automake/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-aws-cli
   source:
@@ -10952,7 +10952,7 @@ resources:
   source:
     paths:
     - aws-cli/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-bash-completion
   source:
@@ -10964,19 +10964,19 @@ resources:
   source:
     paths:
     - bash-completion/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: bash-static-plan
   source:
     paths:
     - bash-static/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: bash-plan
   source:
     paths:
     - bash/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-bats
   source:
@@ -10988,7 +10988,7 @@ resources:
   source:
     paths:
     - bats/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-bc
   source:
@@ -11000,19 +11000,19 @@ resources:
   source:
     paths:
     - bc/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: bdwgc-plan
   source:
     paths:
     - bdwgc/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: binutils-plan
   source:
     paths:
     - binutils/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-bison
   source:
@@ -11024,7 +11024,7 @@ resources:
   source:
     paths:
     - bison/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-bison2
   source:
@@ -11036,7 +11036,7 @@ resources:
   source:
     paths:
     - bison2/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-boost
   source:
@@ -11048,43 +11048,43 @@ resources:
   source:
     paths:
     - boost/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: bundler-plan
   source:
     paths:
     - bundler/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: busybox-static-plan
   source:
     paths:
     - busybox-static/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: busybox-plan
   source:
     paths:
     - busybox/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: bzip2-musl-plan
   source:
     paths:
     - bzip2-musl/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: bzip2-plan
   source:
     paths:
     - bzip2/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: cacerts-plan
   source:
     paths:
     - cacerts/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-cargo-nightly
   source:
@@ -11096,7 +11096,7 @@ resources:
   source:
     paths:
     - cargo-nightly/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-ccache
   source:
@@ -11108,7 +11108,7 @@ resources:
   source:
     paths:
     - ccache/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-check
   source:
@@ -11120,7 +11120,7 @@ resources:
   source:
     paths:
     - check/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-clens
   source:
@@ -11132,7 +11132,7 @@ resources:
   source:
     paths:
     - clens/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-cmake
   source:
@@ -11144,7 +11144,7 @@ resources:
   source:
     paths:
     - cmake/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-composer
   source:
@@ -11156,7 +11156,7 @@ resources:
   source:
     paths:
     - composer/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-consul
   source:
@@ -11168,7 +11168,7 @@ resources:
   source:
     paths:
     - consul/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-coreutils-static
   source:
@@ -11180,19 +11180,19 @@ resources:
   source:
     paths:
     - coreutils-static/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: coreutils-plan
   source:
     paths:
     - coreutils/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: cpanminus-plan
   source:
     paths:
     - cpanminus/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-cpio
   source:
@@ -11204,7 +11204,7 @@ resources:
   source:
     paths:
     - cpio/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-curator
   source:
@@ -11216,7 +11216,7 @@ resources:
   source:
     paths:
     - curator/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-curl-static-musl
   source:
@@ -11228,25 +11228,25 @@ resources:
   source:
     paths:
     - curl-static-musl/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: curl-plan
   source:
     paths:
     - curl/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: cyrus-sasl-plan
   source:
     paths:
     - cyrus-sasl/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: db-plan
   source:
     paths:
     - db/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-dejagnu
   source:
@@ -11258,7 +11258,7 @@ resources:
   source:
     paths:
     - dejagnu/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-delivery-cli
   source:
@@ -11270,7 +11270,7 @@ resources:
   source:
     paths:
     - delivery-cli/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-diffutils
   source:
@@ -11282,7 +11282,7 @@ resources:
   source:
     paths:
     - diffutils/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-docker
   source:
@@ -11294,7 +11294,7 @@ resources:
   source:
     paths:
     - docker/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-docutils
   source:
@@ -11306,7 +11306,7 @@ resources:
   source:
     paths:
     - docutils/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-dotnet-core-sdk
   source:
@@ -11318,13 +11318,13 @@ resources:
   source:
     paths:
     - dotnet-core-sdk/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: dotnet-core-plan
   source:
     paths:
     - dotnet-core/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-doxygen
   source:
@@ -11336,7 +11336,7 @@ resources:
   source:
     paths:
     - doxygen/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-dpkg
   source:
@@ -11348,7 +11348,7 @@ resources:
   source:
     paths:
     - dpkg/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-ed
   source:
@@ -11360,7 +11360,7 @@ resources:
   source:
     paths:
     - ed/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-elasticsearch
   source:
@@ -11372,13 +11372,13 @@ resources:
   source:
     paths:
     - elasticsearch/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: elfutils-plan
   source:
     paths:
     - elfutils/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-elixir
   source:
@@ -11390,13 +11390,13 @@ resources:
   source:
     paths:
     - elixir/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: erlang-plan
   source:
     paths:
     - erlang/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-erlang16
   source:
@@ -11408,7 +11408,7 @@ resources:
   source:
     paths:
     - erlang16/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-erlang18
   source:
@@ -11420,25 +11420,25 @@ resources:
   source:
     paths:
     - erlang18/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: expat-plan
   source:
     paths:
     - expat/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: expect-plan
   source:
     paths:
     - expect/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: file-plan
   source:
     paths:
     - file/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-findutils
   source:
@@ -11450,7 +11450,7 @@ resources:
   source:
     paths:
     - findutils/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-flatbuffers
   source:
@@ -11462,7 +11462,7 @@ resources:
   source:
     paths:
     - flatbuffers/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-flex
   source:
@@ -11474,19 +11474,19 @@ resources:
   source:
     paths:
     - flex/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: fontconfig-plan
   source:
     paths:
     - fontconfig/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: freetype-plan
   source:
     paths:
     - freetype/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-galera
   source:
@@ -11498,25 +11498,25 @@ resources:
   source:
     paths:
     - galera/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: gawk-plan
   source:
     paths:
     - gawk/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: gcc-libs-plan
   source:
     paths:
     - gcc-libs/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: gcc-plan
   source:
     paths:
     - gcc/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-gdb
   source:
@@ -11528,13 +11528,13 @@ resources:
   source:
     paths:
     - gdb/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: gdbm-plan
   source:
     paths:
     - gdbm/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-gecode
   source:
@@ -11546,7 +11546,7 @@ resources:
   source:
     paths:
     - gecode/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-geoip
   source:
@@ -11558,19 +11558,19 @@ resources:
   source:
     paths:
     - geoip/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: gettext-plan
   source:
     paths:
     - gettext/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: giflib-plan
   source:
     paths:
     - giflib/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-gifsicle
   source:
@@ -11582,13 +11582,13 @@ resources:
   source:
     paths:
     - gifsicle/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: git-plan
   source:
     paths:
     - git/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-github_changelog_generator
   source:
@@ -11600,25 +11600,25 @@ resources:
   source:
     paths:
     - github_changelog_generator/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: glib-plan
   source:
     paths:
     - glib/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: glibc-plan
   source:
     paths:
     - glibc/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: gmp-plan
   source:
     paths:
     - gmp/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-gnatsd
   source:
@@ -11630,7 +11630,7 @@ resources:
   source:
     paths:
     - gnatsd/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-gnupg-static
   source:
@@ -11642,19 +11642,19 @@ resources:
   source:
     paths:
     - gnupg-static/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: gnupg-plan
   source:
     paths:
     - gnupg/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: go-plan
   source:
     paths:
     - go/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-go14
   source:
@@ -11666,13 +11666,13 @@ resources:
   source:
     paths:
     - go14/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: go17-plan
   source:
     paths:
     - go17/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-gox
   source:
@@ -11684,7 +11684,7 @@ resources:
   source:
     paths:
     - gox/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-gpgme
   source:
@@ -11696,7 +11696,7 @@ resources:
   source:
     paths:
     - gpgme/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-gradle
   source:
@@ -11708,7 +11708,7 @@ resources:
   source:
     paths:
     - gradle/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-graphviz
   source:
@@ -11720,19 +11720,19 @@ resources:
   source:
     paths:
     - graphviz/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: grep-plan
   source:
     paths:
     - grep/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: groff-plan
   source:
     paths:
     - groff/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-grub
   source:
@@ -11744,13 +11744,13 @@ resources:
   source:
     paths:
     - grub/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: guile-plan
   source:
     paths:
     - guile/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-gzip
   source:
@@ -11762,7 +11762,7 @@ resources:
   source:
     paths:
     - gzip/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-haproxy
   source:
@@ -11774,7 +11774,7 @@ resources:
   source:
     paths:
     - haproxy/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-htop
   source:
@@ -11786,7 +11786,7 @@ resources:
   source:
     paths:
     - htop/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-httpd
   source:
@@ -11798,13 +11798,13 @@ resources:
   source:
     paths:
     - httpd/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: iana-etc-plan
   source:
     paths:
     - iana-etc/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-icu
   source:
@@ -11816,13 +11816,13 @@ resources:
   source:
     paths:
     - icu/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: icu52-plan
   source:
     paths:
     - icu52/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-icu56
   source:
@@ -11834,7 +11834,7 @@ resources:
   source:
     paths:
     - icu56/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-imagemagick
   source:
@@ -11846,19 +11846,19 @@ resources:
   source:
     paths:
     - imagemagick/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: inetutils-plan
   source:
     paths:
     - inetutils/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: iproute2-plan
   source:
     paths:
     - iproute2/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-iptables
   source:
@@ -11870,31 +11870,31 @@ resources:
   source:
     paths:
     - iptables/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: jbigkit-plan
   source:
     paths:
     - jbigkit/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: jdk7-plan
   source:
     paths:
     - jdk7/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: jdk8-plan
   source:
     paths:
     - jdk8/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: jemalloc-plan
   source:
     paths:
     - jemalloc/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-jetty
   source:
@@ -11906,7 +11906,7 @@ resources:
   source:
     paths:
     - jetty/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-jfrog-cli
   source:
@@ -11918,7 +11918,7 @@ resources:
   source:
     paths:
     - jfrog-cli/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-jo
   source:
@@ -11930,7 +11930,7 @@ resources:
   source:
     paths:
     - jo/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-jq-static
   source:
@@ -11942,7 +11942,7 @@ resources:
   source:
     paths:
     - jq-static/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-jre7
   source:
@@ -11954,13 +11954,13 @@ resources:
   source:
     paths:
     - jre7/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: jre8-plan
   source:
     paths:
     - jre8/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-jruby
   source:
@@ -11972,13 +11972,13 @@ resources:
   source:
     paths:
     - jruby/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: jruby1-plan
   source:
     paths:
     - jruby1/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-kafka
   source:
@@ -11990,7 +11990,7 @@ resources:
   source:
     paths:
     - kafka/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-kibana
   source:
@@ -12002,31 +12002,31 @@ resources:
   source:
     paths:
     - kibana/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: krb5-plan
   source:
     paths:
     - krb5/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: lcms2-plan
   source:
     paths:
     - lcms2/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: less-plan
   source:
     paths:
     - less/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: libaio-plan
   source:
     paths:
     - libaio/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-libarchive-musl
   source:
@@ -12038,79 +12038,79 @@ resources:
   source:
     paths:
     - libarchive-musl/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: libarchive-plan
   source:
     paths:
     - libarchive/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: libassuan-plan
   source:
     paths:
     - libassuan/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: libatomic_ops-plan
   source:
     paths:
     - libatomic_ops/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: libbsd-plan
   source:
     paths:
     - libbsd/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: libcap-ng-plan
   source:
     paths:
     - libcap-ng/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: libcap-plan
   source:
     paths:
     - libcap/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: libcxx-plan
   source:
     paths:
     - libcxx/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: libedit-plan
   source:
     paths:
     - libedit/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: libev-plan
   source:
     paths:
     - libev/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: libevent-plan
   source:
     paths:
     - libevent/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: libffi-plan
   source:
     paths:
     - libffi/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: libgcrypt-plan
   source:
     paths:
     - libgcrypt/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-libghthash
   source:
@@ -12122,31 +12122,31 @@ resources:
   source:
     paths:
     - libghthash/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: libgpg-error-plan
   source:
     paths:
     - libgpg-error/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: libiconv-plan
   source:
     paths:
     - libiconv/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: libidn-plan
   source:
     paths:
     - libidn/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: libjpeg-turbo-plan
   source:
     paths:
     - libjpeg-turbo/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-libksba
   source:
@@ -12158,25 +12158,25 @@ resources:
   source:
     paths:
     - libksba/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: libmpc-plan
   source:
     paths:
     - libmpc/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: libossp-uuid-plan
   source:
     paths:
     - libossp-uuid/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: libpcap-plan
   source:
     paths:
     - libpcap/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-libpipeline
   source:
@@ -12188,13 +12188,13 @@ resources:
   source:
     paths:
     - libpipeline/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: libpng-plan
   source:
     paths:
     - libpng/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-libressl-musl
   source:
@@ -12206,7 +12206,7 @@ resources:
   source:
     paths:
     - libressl-musl/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-libressl
   source:
@@ -12218,19 +12218,19 @@ resources:
   source:
     paths:
     - libressl/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: libscrypt-plan
   source:
     paths:
     - libscrypt/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: libseccomp-plan
   source:
     paths:
     - libseccomp/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-libsodium-musl
   source:
@@ -12242,37 +12242,37 @@ resources:
   source:
     paths:
     - libsodium-musl/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: libsodium-plan
   source:
     paths:
     - libsodium/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: libtiff-plan
   source:
     paths:
     - libtiff/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: libtool-plan
   source:
     paths:
     - libtool/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: libunistring-plan
   source:
     paths:
     - libunistring/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: libunwind-plan
   source:
     paths:
     - libunwind/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-libwebp
   source:
@@ -12284,25 +12284,25 @@ resources:
   source:
     paths:
     - libwebp/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: libxml2-plan
   source:
     paths:
     - libxml2/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: libxslt-plan
   source:
     paths:
     - libxslt/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: libyaml-plan
   source:
     paths:
     - libyaml/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-linux-headers-musl
   source:
@@ -12314,13 +12314,13 @@ resources:
   source:
     paths:
     - linux-headers-musl/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: linux-headers-plan
   source:
     paths:
     - linux-headers/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-linux-pam
   source:
@@ -12332,7 +12332,7 @@ resources:
   source:
     paths:
     - linux-pam/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-llvm
   source:
@@ -12344,13 +12344,13 @@ resources:
   source:
     paths:
     - llvm/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: local-lib-plan
   source:
     paths:
     - local-lib/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-logback
   source:
@@ -12362,7 +12362,7 @@ resources:
   source:
     paths:
     - logback/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-logstash
   source:
@@ -12374,7 +12374,7 @@ resources:
   source:
     paths:
     - logstash/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-logstash2
   source:
@@ -12386,7 +12386,7 @@ resources:
   source:
     paths:
     - logstash2/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-lsyncd
   source:
@@ -12398,13 +12398,13 @@ resources:
   source:
     paths:
     - lsyncd/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: lttng-ust-plan
   source:
     paths:
     - lttng-ust/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-lua
   source:
@@ -12416,7 +12416,7 @@ resources:
   source:
     paths:
     - lua/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-lynx
   source:
@@ -12428,7 +12428,7 @@ resources:
   source:
     paths:
     - lynx/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-lz4
   source:
@@ -12440,7 +12440,7 @@ resources:
   source:
     paths:
     - lz4/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-lzip
   source:
@@ -12452,25 +12452,25 @@ resources:
   source:
     paths:
     - lzip/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: lzo-plan
   source:
     paths:
     - lzo/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: m4-plan
   source:
     paths:
     - m4/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: make-plan
   source:
     paths:
     - make/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-man-pages
   source:
@@ -12482,7 +12482,7 @@ resources:
   source:
     paths:
     - man-pages/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-mariadb
   source:
@@ -12494,7 +12494,7 @@ resources:
   source:
     paths:
     - mariadb/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-maven
   source:
@@ -12506,7 +12506,7 @@ resources:
   source:
     paths:
     - maven/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-mc
   source:
@@ -12518,7 +12518,7 @@ resources:
   source:
     paths:
     - mc/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-memcached
   source:
@@ -12530,7 +12530,7 @@ resources:
   source:
     paths:
     - memcached/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-mention-bot
   source:
@@ -12542,7 +12542,7 @@ resources:
   source:
     paths:
     - mention-bot/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-mercurial
   source:
@@ -12554,7 +12554,7 @@ resources:
   source:
     paths:
     - mercurial/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-mg
   source:
@@ -12566,7 +12566,7 @@ resources:
   source:
     paths:
     - mg/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-mongo-tools
   source:
@@ -12578,7 +12578,7 @@ resources:
   source:
     paths:
     - mongo-tools/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-mongodb
   source:
@@ -12590,13 +12590,13 @@ resources:
   source:
     paths:
     - mongodb/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: mpfr-plan
   source:
     paths:
     - mpfr/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-mssql
   source:
@@ -12608,13 +12608,13 @@ resources:
   source:
     paths:
     - mssql/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: musl-plan
   source:
     paths:
     - musl/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-mysql-client
   source:
@@ -12626,7 +12626,7 @@ resources:
   source:
     paths:
     - mysql-client/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-mysql
   source:
@@ -12638,7 +12638,7 @@ resources:
   source:
     paths:
     - mysql/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-nasm
   source:
@@ -12650,7 +12650,7 @@ resources:
   source:
     paths:
     - nasm/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-nats-streaming-server
   source:
@@ -12662,7 +12662,7 @@ resources:
   source:
     paths:
     - nats-streaming-server/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-nats-top
   source:
@@ -12674,7 +12674,7 @@ resources:
   source:
     paths:
     - nats-top/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-ncdu
   source:
@@ -12686,13 +12686,13 @@ resources:
   source:
     paths:
     - ncdu/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: ncurses-plan
   source:
     paths:
     - ncurses/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-net-tools
   source:
@@ -12704,7 +12704,7 @@ resources:
   source:
     paths:
     - net-tools/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-netcat-openbsd
   source:
@@ -12716,7 +12716,7 @@ resources:
   source:
     paths:
     - netcat-openbsd/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-netcat
   source:
@@ -12728,7 +12728,7 @@ resources:
   source:
     paths:
     - netcat/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-nginx
   source:
@@ -12740,7 +12740,7 @@ resources:
   source:
     paths:
     - nginx/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-ninja
   source:
@@ -12752,13 +12752,13 @@ resources:
   source:
     paths:
     - ninja/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: node-plan
   source:
     paths:
     - node/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-node7
   source:
@@ -12770,7 +12770,7 @@ resources:
   source:
     paths:
     - node7/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-nodejs-tutorial-app
   source:
@@ -12782,7 +12782,7 @@ resources:
   source:
     paths:
     - nodejs-tutorial-app/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-npth
   source:
@@ -12794,19 +12794,19 @@ resources:
   source:
     paths:
     - npth/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: nspr-plan
   source:
     paths:
     - nspr/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: nss-plan
   source:
     paths:
     - nss/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-numactl
   source:
@@ -12818,7 +12818,7 @@ resources:
   source:
     paths:
     - numactl/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-openjpeg
   source:
@@ -12830,7 +12830,7 @@ resources:
   source:
     paths:
     - openjpeg/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-openldap
   source:
@@ -12842,7 +12842,7 @@ resources:
   source:
     paths:
     - openldap/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-openresty
   source:
@@ -12854,25 +12854,25 @@ resources:
   source:
     paths:
     - openresty/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: openssh-plan
   source:
     paths:
     - openssh/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: openssl-musl-plan
   source:
     paths:
     - openssl-musl/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: openssl-plan
   source:
     paths:
     - openssl/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-openvpn
   source:
@@ -12884,7 +12884,7 @@ resources:
   source:
     paths:
     - openvpn/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-packer
   source:
@@ -12896,7 +12896,7 @@ resources:
   source:
     paths:
     - packer/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-patch
   source:
@@ -12908,7 +12908,7 @@ resources:
   source:
     paths:
     - patch/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-patchelf
   source:
@@ -12920,7 +12920,7 @@ resources:
   source:
     paths:
     - patchelf/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-pax-utils
   source:
@@ -12932,13 +12932,13 @@ resources:
   source:
     paths:
     - pax-utils/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: pcre-plan
   source:
     paths:
     - pcre/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-percona-xtrabackup
   source:
@@ -12950,13 +12950,13 @@ resources:
   source:
     paths:
     - percona-xtrabackup/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: perl-plan
   source:
     paths:
     - perl/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-phantomjs
   source:
@@ -12968,13 +12968,13 @@ resources:
   source:
     paths:
     - phantomjs/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: php-plan
   source:
     paths:
     - php/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-php5
   source:
@@ -12986,19 +12986,19 @@ resources:
   source:
     paths:
     - php5/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: pixman-plan
   source:
     paths:
     - pixman/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: pkg-config-plan
   source:
     paths:
     - pkg-config/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-polipo
   source:
@@ -13010,19 +13010,19 @@ resources:
   source:
     paths:
     - polipo/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: popt-plan
   source:
     paths:
     - popt/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: postgresql-plan
   source:
     paths:
     - postgresql/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-postgresql93
   source:
@@ -13034,7 +13034,7 @@ resources:
   source:
     paths:
     - postgresql93/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-postgresql94
   source:
@@ -13046,7 +13046,7 @@ resources:
   source:
     paths:
     - postgresql94/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-postgresql95
   source:
@@ -13058,7 +13058,7 @@ resources:
   source:
     paths:
     - postgresql95/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-powershell
   source:
@@ -13070,13 +13070,13 @@ resources:
   source:
     paths:
     - powershell/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: procps-ng-plan
   source:
     paths:
     - procps-ng/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-protobuf-c
   source:
@@ -13088,7 +13088,7 @@ resources:
   source:
     paths:
     - protobuf-c/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-protobuf-rust
   source:
@@ -13100,7 +13100,7 @@ resources:
   source:
     paths:
     - protobuf-rust/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-protobuf
   source:
@@ -13112,7 +13112,7 @@ resources:
   source:
     paths:
     - protobuf/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-psmisc
   source:
@@ -13124,19 +13124,19 @@ resources:
   source:
     paths:
     - psmisc/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: python-plan
   source:
     paths:
     - python/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: python2-plan
   source:
     paths:
     - python2/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-qemu
   source:
@@ -13148,7 +13148,7 @@ resources:
   source:
     paths:
     - qemu/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-rabbitmq
   source:
@@ -13160,7 +13160,7 @@ resources:
   source:
     paths:
     - rabbitmq/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-re2c
   source:
@@ -13172,13 +13172,13 @@ resources:
   source:
     paths:
     - re2c/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: readline-plan
   source:
     paths:
     - readline/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-rebar3
   source:
@@ -13190,7 +13190,7 @@ resources:
   source:
     paths:
     - rebar3/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-redis
   source:
@@ -13202,7 +13202,7 @@ resources:
   source:
     paths:
     - redis/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-relx
   source:
@@ -13214,7 +13214,7 @@ resources:
   source:
     paths:
     - relx/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-repo
   source:
@@ -13226,7 +13226,7 @@ resources:
   source:
     paths:
     - repo/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-rngd
   source:
@@ -13238,7 +13238,7 @@ resources:
   source:
     paths:
     - rngd/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-rpm
   source:
@@ -13250,7 +13250,7 @@ resources:
   source:
     paths:
     - rpm/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-rq
   source:
@@ -13262,7 +13262,7 @@ resources:
   source:
     paths:
     - rq/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-rsync
   source:
@@ -13274,7 +13274,7 @@ resources:
   source:
     paths:
     - rsync/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-ruby-rails-sample
   source:
@@ -13286,13 +13286,13 @@ resources:
   source:
     paths:
     - ruby-rails-sample/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: ruby-plan
   source:
     paths:
     - ruby/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-runit
   source:
@@ -13304,7 +13304,7 @@ resources:
   source:
     paths:
     - runit/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-rust
   source:
@@ -13316,7 +13316,7 @@ resources:
   source:
     paths:
     - rust/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-sassc
   source:
@@ -13328,7 +13328,7 @@ resources:
   source:
     paths:
     - sassc/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-scaffolding-go
   source:
@@ -13340,7 +13340,7 @@ resources:
   source:
     paths:
     - scaffolding-go/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-scaffolding-go17
   source:
@@ -13352,7 +13352,7 @@ resources:
   source:
     paths:
     - scaffolding-go17/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-scons
   source:
@@ -13364,13 +13364,13 @@ resources:
   source:
     paths:
     - scons/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: sed-plan
   source:
     paths:
     - sed/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-sensu
   source:
@@ -13382,13 +13382,13 @@ resources:
   source:
     paths:
     - sensu/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: serf-plan
   source:
     paths:
     - serf/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-shadow
   source:
@@ -13400,13 +13400,13 @@ resources:
   source:
     paths:
     - shadow/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: snappy-plan
   source:
     paths:
     - snappy/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-socat
   source:
@@ -13418,7 +13418,7 @@ resources:
   source:
     paths:
     - socat/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-sqitch
   source:
@@ -13430,13 +13430,13 @@ resources:
   source:
     paths:
     - sqitch/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: sqlite-plan
   source:
     paths:
     - sqlite/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-strace
   source:
@@ -13448,7 +13448,7 @@ resources:
   source:
     paths:
     - strace/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-stringencoders
   source:
@@ -13460,7 +13460,7 @@ resources:
   source:
     paths:
     - stringencoders/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-subversion
   source:
@@ -13472,7 +13472,7 @@ resources:
   source:
     paths:
     - subversion/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-sudo
   source:
@@ -13484,7 +13484,7 @@ resources:
   source:
     paths:
     - sudo/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-swig
   source:
@@ -13496,7 +13496,7 @@ resources:
   source:
     paths:
     - swig/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-sysstat
   source:
@@ -13508,19 +13508,19 @@ resources:
   source:
     paths:
     - sysstat/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: tar-plan
   source:
     paths:
     - tar/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: tcl-plan
   source:
     paths:
     - tcl/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-tcpdump
   source:
@@ -13532,7 +13532,7 @@ resources:
   source:
     paths:
     - tcpdump/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-texinfo
   source:
@@ -13544,7 +13544,7 @@ resources:
   source:
     paths:
     - texinfo/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-tmux
   source:
@@ -13556,7 +13556,7 @@ resources:
   source:
     paths:
     - tmux/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-tomcat-native
   source:
@@ -13568,7 +13568,7 @@ resources:
   source:
     paths:
     - tomcat-native/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-tomcat7
   source:
@@ -13580,7 +13580,7 @@ resources:
   source:
     paths:
     - tomcat7/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-tomcat8
   source:
@@ -13592,7 +13592,7 @@ resources:
   source:
     paths:
     - tomcat8/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-tor
   source:
@@ -13604,7 +13604,7 @@ resources:
   source:
     paths:
     - tor/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-tree
   source:
@@ -13616,7 +13616,7 @@ resources:
   source:
     paths:
     - tree/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-ttyrec
   source:
@@ -13628,7 +13628,7 @@ resources:
   source:
     paths:
     - ttyrec/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-tzdata
   source:
@@ -13640,7 +13640,7 @@ resources:
   source:
     paths:
     - tzdata/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-unzip
   source:
@@ -13652,19 +13652,19 @@ resources:
   source:
     paths:
     - unzip/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: userspace-rcu-plan
   source:
     paths:
     - userspace-rcu/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: util-linux-plan
   source:
     paths:
     - util-linux/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-valgrind
   source:
@@ -13676,7 +13676,7 @@ resources:
   source:
     paths:
     - valgrind/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-vault
   source:
@@ -13688,19 +13688,19 @@ resources:
   source:
     paths:
     - vault/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: vde2-plan
   source:
     paths:
     - vde2/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: vim-plan
   source:
     paths:
     - vim/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-virtualenv
   source:
@@ -13712,7 +13712,7 @@ resources:
   source:
     paths:
     - virtualenv/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-vmtouch
   source:
@@ -13724,7 +13724,7 @@ resources:
   source:
     paths:
     - vmtouch/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-wget-static
   source:
@@ -13736,7 +13736,7 @@ resources:
   source:
     paths:
     - wget-static/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-wget
   source:
@@ -13748,25 +13748,25 @@ resources:
   source:
     paths:
     - wget/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: which-plan
   source:
     paths:
     - which/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: xz-musl-plan
   source:
     paths:
     - xz-musl/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: xz-plan
   source:
     paths:
     - xz/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-yarn
   source:
@@ -13778,7 +13778,7 @@ resources:
   source:
     paths:
     - yarn/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-zeromq
   source:
@@ -13790,7 +13790,7 @@ resources:
   source:
     paths:
     - zeromq/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-zip
   source:
@@ -13802,19 +13802,19 @@ resources:
   source:
     paths:
     - zip/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: zlib-musl-plan
   source:
     paths:
     - zlib-musl/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: zlib-plan
   source:
     paths:
     - zlib/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-zookeeper
   source:
@@ -13826,7 +13826,7 @@ resources:
   source:
     paths:
     - zookeeper/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 - name: core-zstd
   source:
@@ -13838,6 +13838,6 @@ resources:
   source:
     paths:
     - zstd/*
-    uri: https://github.com/starkandwayne/habitat-plans.git
+    uri: https://github.com/habitat-sh/core-plans.git
   type: git
 
