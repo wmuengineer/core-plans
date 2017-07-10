@@ -84,10 +84,6 @@
   # Path to plugins:
   #
   plugins = "plugins"
-  #
-  # Path to scripts directory
-  #
-  scripts = "scripts"
 
 #
 # ----------------------------------- Indices ----------------------------------
@@ -139,7 +135,7 @@
 [bootstrap]
   # Lock the memory on startup:
   #
-  mlockall = "true"
+  memory_lock = "false"
   #
   # Make sure that the heap size is set to about half the memory available
   # on the system and that the owner of the process is allowed to use this
@@ -234,7 +230,7 @@
 
 # ======================== Elasticsearch Logger Configuration =========================
 [logger]
-  level = "INFO"
+  level = "info"
 
 # ======================== Elasticsearch Index Module Configuration =========================
 [index]
@@ -251,4 +247,4 @@
   max_locked_memory = ""
   es_startup_sleep_time = ""
   es_java_opts = ""
-  heapsize = ""
+  heapsize = "2g"
