@@ -26,7 +26,22 @@ do_default_prepare() {
 do_default_build() {
   # TODO fin: add cache loading of `$CACHE_PATH/node_modules`
   # TODO fin: support prebuild step?
+build_line "=================="
+build_line "doing the pre-build"
+  # temporarily changing node environment to development
+  # so it installs the development dependencies needed for prebuild and postbuild hooks
+  export NODE_ENV=development
+  npm install
+build_line "HERE IS THE PATH"
+build_line "$PATH"
+#  npm run build
+  export NODE_ENV=production
+#  npm install --only=dev
+#  npm install rimraf
 
+
+build_line "=================="
+build_line "=================="
   scaffolding_modules_install
 
   # TODO fin: support postbuild step?
