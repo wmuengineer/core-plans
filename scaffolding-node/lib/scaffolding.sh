@@ -31,10 +31,7 @@ build_line "doing the pre-build"
   # temporarily changing node environment to development
   # so it installs the development dependencies needed for prebuild and postbuild hooks
   export NODE_ENV=development
-  npm install
-build_line "HERE IS THE PATH"
-build_line "$PATH"
-#  npm run build
+  npm install --prefix $CACHE_PATH
   export NODE_ENV=production
 #  npm install --only=dev
 #  npm install rimraf
@@ -124,17 +121,37 @@ scaffolding_modules_install() {
       if [[ -n "$HAB_NONINTERACTIVE" ]]; then
         export NPM_CONFIG_PROGRESS=false
       fi
+
+  export NODE_ENV=development
+build_line "=================="
+build_line "=================="
+build_line "=================="
+build_line "=================="
+build_line "=================="
+build_line "=================="
+build_line "one"
+
       pushd "$CACHE_PATH" > /dev/null
       npm install \
         --unsafe-perm \
-        --production \
+#        --production \
         --loglevel error \
         --fetch-retries 5 \
         --userconfig "$CACHE_PATH/.npmrc"
       npm list --json > npm-list.json
       popd > /dev/null
+  export NODE_ENV=production
       ;;
     yarn)
+build_line "=================="
+build_line "=================="
+build_line "=================="
+build_line "=================="
+build_line "=================="
+build_line "=================="
+build_line "two"
+
+
       local extra_args
       if [[ -n "$HAB_NONINTERACTIVE" ]]; then
         extra_args="--no-progress"
@@ -142,7 +159,6 @@ scaffolding_modules_install() {
       yarn install $extra_args \
         --pure-lockfile \
         --ignore-engines \
-        --production \
         --modules-folder "$CACHE_PATH/node_modules" \
         --cache-folder "$CACHE_PATH/yarn_cache"
       ;;
