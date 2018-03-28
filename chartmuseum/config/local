@@ -1,0 +1,1 @@
+STORAGE_LOCAL_ROOTDIR="{{pkg_svc_data_path}}"

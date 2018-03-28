@@ -1,0 +1,6 @@
+ALIBABA_CLOUD_ACCESS_KEY_ID="{{cfg.alibaba.access_key}}"
+ALIBABA_CLOUD_ACCESS_KEY_SECRET="{{cfg.alibaba.access_secret_key}}"
+STORAGE="alibaba"
+STORAGE_ALIBABA_BUCKET="{{cfg.alibaba.bucket}}"
+STORAGE_ALIBABA_PREFIX="{{cfg.alibaba.prefix}}"
+STORAGE_ALIBABA_ENDPOINT="{{cfg.alibaba.endpoint}}"

@@ -1,0 +1,5 @@
+  STORAGE="amazon"
+  STORAGE_AMAZON_BUCKET="{{cfg.amazon.bucket}}"
+  STORAGE_AMAZON_PREFIX="{{cfg.amazon.prefix}}"
+  STORAGE_AMAZON_REGION="{{cfg.amazon.region}}"
+  STORAGE_AMAZON_ENDPOINT="{{cfg.amazon.endpoint}}"

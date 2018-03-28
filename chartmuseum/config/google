@@ -1,0 +1,3 @@
+STORAGE="google"
+STORAGE_GOOGLE_BUCKET="{{cfg.google.bucket}}"
+STORAGE_GOOGLE_PREFIX="{{cfg.google.prefix}}"

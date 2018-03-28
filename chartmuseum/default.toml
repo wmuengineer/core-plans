@@ -1,0 +1,32 @@
+debug = false
+port = 8000
+
+[amazon]
+enabled = false
+bucket = ""
+prefix = ""
+region = ""
+endpoint = ""
+
+[google]
+enabled = false
+bucket = ""
+prefix = ""
+
+[azure]
+enabled = false
+storage_account = ""
+storage_access_key = ""
+container = ""
+prefix = ""
+
+[alibaba]
+enabled = false
+access_key = ""
+access_secret_key = ""
+bucket = ""
+prefix = ""
+endpoint = ""
+
+[local]
+enabled = true

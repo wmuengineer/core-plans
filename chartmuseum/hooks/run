@@ -1,0 +1,28 @@
+#!/bin/sh
+
+exec 2>&1
+
+DEBUG={{cfg.debug}}
+PORT={{cfg.port}}
+
+{{#if cfg.alibaba.enabled ~}}
+. {{pkg.svc_config_path}}/alibaba
+{{/if ~}}
+
+{{#if cfg.amazon.enabled ~}}
+. {{pkg.svc_config_path}}/amazon
+{{/if ~}}
+
+{{#if cfg.azure.enabled ~}}
+. {{pkg.svc_config_path}}/azure
+{{/if ~}}
+
+{{#if cfg.google.enabled ~}}
+. {{pkg.svc_config_path}}/google
+{{/if ~}}
+
+{{#if cfg.local.enabled ~}}
+. {{pkg.svc_config_path}}/local
+{{/if ~}}
+
+exec chartmuseum
