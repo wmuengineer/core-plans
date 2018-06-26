@@ -19,9 +19,9 @@ do_setup_environment() {
 }
 
 do_prepare() {
-  eval "$(perl -I$(pkg_path_for core/local-lib)/lib/perl5 -Mlocal::lib=$(pkg_path_for core/local-lib))"
+  eval "$(perl -I"$(pkg_path_for core/local-lib)"/lib/perl5 -Mlocal::lib="$(pkg_path_for core/local-lib)")"
   # Create a new lib dir in our pacakge for cpanm to house all of its libs
-  eval $(perl -Mlocal::lib=${pkg_prefix})
+  eval "$(perl -Mlocal::lib="${pkg_prefix}")"
 
   cpanm Module::Build
 }
@@ -36,8 +36,8 @@ do_install() {
   ./Build
   ./Build install
 
-  for file in ${pkg_prefix}/bin/*; do
-    sed -i "1 s,.*,& -I${pkg_prefix}/lib/perl5," $file
+  for file in "${pkg_prefix}"/bin/*; do
+    sed -i "1 s,.*,& -I${pkg_prefix}/lib/perl5," "$file"
   done
 }
 
